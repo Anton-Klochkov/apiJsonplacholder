@@ -1,0 +1,23 @@
+.mainLayout {
+  display: grid;
+  height: 100vh;
+  grid-template:
+    'nav  main' 12fr
+    / 1fr 11fr;
+}
+
+header {
+  grid-area: head;
+  background: #e5e5e5;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #091336;
+  max-width: 240px;
+}
+
+main {
+  grid-area: main;
+  background: #e5e5e5;
+}
